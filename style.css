@@ -1,0 +1,117 @@
+body {
+    background-color: #121212; 
+    color: #e0e0e0; 
+    font-family: Arial, sans-serif;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.nav {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    gap: 20px;
+    font-weight: bold;
+    background-color: #1f1f1f; 
+    border-bottom: 2px solid #bb86fc; 
+}
+a {
+    color: #bb86fc; 
+    text-decoration: none;
+}
+a:hover {
+    color: #03dac6; 
+}
+
+
+.head1 {
+    text-align: center;
+    background-color: #1e1e1e; 
+    color: #e0e0e0; 
+    border-radius: 6px;
+    height: auto;
+    margin-top: 50px;
+    padding: 80px;
+}
+button {
+    margin: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #bb86fc; 
+    color: #121212;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: #03dac6; 
+    color: #121212;
+}
+
+
+img {
+    margin: 40px;
+    padding-left: 0px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+
+section {
+    background-color: #1f1f1f; 
+    border-radius: 8px;
+    padding: 20px;
+}
+h2 {
+    color: #bb86fc; 
+    margin: 20px;
+}
+p {
+    margin: 20px;
+    color: #e0e0e0; 
+}
+
+/* Footer Section */
+footer {
+    background-color: #121212;
+    color: #e0e0e0; 
+    padding: 2em;
+    text-align: center;
+    border-top: 2px solid #bb86fc; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #03dac6; 
+    border-radius: 4px;
+    background-color: #1f1f1f; 
+    color: #e0e0e0;
+}
+input:focus, textarea:focus {
+    border-color: #bb86fc;
+    outline: none;
+}
+button[type="submit"] {
+    background-color: #03dac6; 
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background-color: #bb86fc; 
+    color: #121212;
+}
